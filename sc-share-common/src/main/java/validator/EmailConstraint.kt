@@ -10,8 +10,10 @@ import javax.validation.ConstraintValidatorContext
  */
 class EmailConstraint : ConstraintValidator<CheckEmail, String> {
 
-  private val regex = "^[a-zA-Z0-9_.-]+@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*\\.[a-zA-Z0-9]{2,6}$"
-  private val pattern = Pattern.compile(regex)
+  companion object {
+    private const val regex = "^[a-zA-Z0-9_.-]+@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*\\.[a-zA-Z0-9]{2,6}$"
+    private val pattern = Pattern.compile(regex)
+  }
 
   override fun isValid(email: String, context: ConstraintValidatorContext?): Boolean {
     return pattern.matcher(email).matches()
