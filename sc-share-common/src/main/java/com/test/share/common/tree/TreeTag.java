@@ -1,4 +1,4 @@
-package tree;
+package com.test.share.common.tree;
 
 import kotlin.annotation.MustBeDocumented;
 

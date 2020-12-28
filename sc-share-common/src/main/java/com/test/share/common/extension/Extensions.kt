@@ -1,4 +1,4 @@
-package extension
+package com.test.share.common.extension
 
 import java.lang.IndexOutOfBoundsException
 

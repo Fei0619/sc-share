@@ -1,4 +1,4 @@
-package validator
+package com.test.share.common.validator
 
 import javax.validation.Constraint
 

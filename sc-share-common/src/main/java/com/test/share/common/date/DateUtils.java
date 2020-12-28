@@ -1,4 +1,4 @@
-package date;
+package com.test.share.common.date;
 
 import java.text.SimpleDateFormat;
 import java.util.HashMap;

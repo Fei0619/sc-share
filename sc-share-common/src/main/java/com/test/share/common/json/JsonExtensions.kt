@@ -1,4 +1,4 @@
-package json
+package com.test.share.common.json
 
 import com.fasterxml.jackson.core.type.TypeReference
 import com.fasterxml.jackson.databind.JavaType

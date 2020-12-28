@@ -1,4 +1,4 @@
-package result
+package com.test.share.common.result
 
 /**
  * @author 费世程

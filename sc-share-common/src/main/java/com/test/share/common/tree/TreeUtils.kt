@@ -1,6 +1,6 @@
-package tree
+package com.test.share.common.tree
 
-import extension.get
+import com.test.share.common.extension.get
 import java.lang.reflect.Method
 import java.util.concurrent.ConcurrentHashMap
 import kotlin.collections.ArrayList

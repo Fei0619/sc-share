@@ -1,4 +1,4 @@
-package result;
+package com.test.share.common.result;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 

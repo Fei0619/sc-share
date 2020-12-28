@@ -1,4 +1,4 @@
-package json
+package com.test.share.common.json
 
 import com.fasterxml.jackson.annotation.JsonInclude
 import com.fasterxml.jackson.core.type.TypeReference
@@ -14,7 +14,7 @@ import com.fasterxml.jackson.datatype.jsr310.deser.LocalTimeDeserializer
 import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateSerializer
 import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateTimeSerializer
 import com.fasterxml.jackson.datatype.jsr310.ser.LocalTimeSerializer
-import date.DatePattern
+import com.test.share.common.date.DatePattern
 import java.lang.reflect.ParameterizedType
 import java.lang.reflect.Type
 import java.time.LocalDate
