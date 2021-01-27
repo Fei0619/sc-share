@@ -171,8 +171,9 @@ public class Res<T> {
     return code;
   }
 
-  public void setCode(int code) {
+  public Res<T> setCode(int code) {
     this.code = code;
+    return this;
   }
 
   public String getMessage() {
