@@ -13,6 +13,7 @@
   </modules>
 
   <properties>
+    <reactor-bom.version>Dysprosium-SR11</reactor-bom.version>
     <kotlin.version>1.3.72</kotlin.version>
     <jakarta.validation-api>2.0.2</jakarta.validation-api>
     <jackson.version>2.11.2</jackson.version>
@@ -35,6 +36,14 @@
 
   <dependencyManagement>
     <dependencies>
+      <!-- reactor -->
+      <dependency>
+        <groupId>io.projectreactor</groupId>
+        <artifactId>reactor-bom</artifactId>
+        <version>${reactor-bom.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
       <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter</artifactId>

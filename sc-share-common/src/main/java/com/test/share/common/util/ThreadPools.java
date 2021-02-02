@@ -13,7 +13,7 @@ import java.util.concurrent.*;
  * @date 2021/1/15 17:11
  */
 @SuppressWarnings({"unused"})
-class ThreadPools {
+public class ThreadPools {
 
   /**
    * 服务器核心数
