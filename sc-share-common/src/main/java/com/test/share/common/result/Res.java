@@ -46,7 +46,7 @@ public class Res<T> {
   @JsonInclude(JsonInclude.Include.NON_NULL)
   private Long total;
 
-  Res() {
+  private Res() {
 
   }
 
